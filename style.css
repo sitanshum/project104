@@ -1,0 +1,31 @@
+body
+{
+    color: white;
+background-image: linear-gradient(to right bottom, #000000, #843838, #b53e3e, #d52a2a, #070000);
+}
+.heading{
+    color: black;
+    width: 80%;
+    font-size: 22px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+#camera{
+    border: 2px solid white;
+    width: 350px;
+    height: 300px;
+}
+
+.name_of_objects,#result_object_name,#result_object_accuracy{
+color:lightcoral
+}
+
+.name_of_objects{
+    font-size: 17px;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 5px;
+    height: 37px;
+}
